@@ -4,8 +4,6 @@ This repo contains the code for a simple Operating System that shows the message
 
 Following the ["Building an OS"](https://www.youtube.com/watch?v=9t-SPC7Tczc&list=PLFjM7v6KGMpiH2G-kT781ByCNC_0pKpPN) tutorial.
 
-## Compiling and testing
-
 ### Pre-requisites
 Any Linux distribution or macOS (via Homebrew). If you use Windows, you can try [WSL (Linux on Windows)](https://learn.microsoft.com/en-us/windows/wsl/install).
 

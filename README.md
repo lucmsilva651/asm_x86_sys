@@ -11,10 +11,14 @@ Any Linux distribution or Mac OS (install via Homebrew). If you use Windows, you
 
 ### Installing tools
 Run the commands below to install Make, NASM (assembly compiler) and QEMU VM system.
-> sudo apt install make nasm qemu && sudo apt install qemu-system-x86
+```sh
+sudo apt install make nasm qemu && sudo apt install qemu-system-x86
+```
 
 ### Compiling and testing
 Run the commands below to compile the ASM file inside /src and run the OS:
-> make && qemu-system-i386 -fda build/main_floppy.img
+```sh
+make && qemu-system-i386 -fda build/main_floppy.img
+```
 
 Credits: nanobyte - [GitHub](https://github.com/nanobyte-dev), [YouTube](https://www.youtube.com/@nanobyte-dev)

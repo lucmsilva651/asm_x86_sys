@@ -7,12 +7,12 @@ Following the ["Building an OS"](https://www.youtube.com/watch?v=9t-SPC7Tczc&lis
 ## Compiling and testing
 
 ### Pre-requisites
-Any Linux distribution or Mac OS (install via Homebrew). If you use Windows, you can try [WSL](https://learn.microsoft.com/en-us/windows/wsl/install).
+Any Linux distribution or macOS (via Homebrew). If you use Windows, you can try [WSL (Linux on Windows)](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 ### Installing tools
-Run the commands below to install Make, NASM (assembly compiler) and QEMU VM system.
+Run the commands below to install Make, NASM (the Assembly compiler) and the QEMU Virtual Machine system.
 ```sh
-sudo apt install make nasm qemu && sudo apt install qemu-system-x86
+sudo apt install make nasm qemu qemu-system-x86
 ```
 
 ### Compiling and testing
